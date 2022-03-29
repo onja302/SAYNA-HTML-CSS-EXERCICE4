@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --rouge: #B11313;
+    --jaune: #F1C530;
+    --blue: #114C92;
+    --noir: #0000;
+    --blanc: #ffff;
+    
+  }
+  @font-face {
+      font-family: ;
+      src: url();
+  }
+  
+  /*design navigation*/
+  #navigation{
+    background-color: var(--rouge)
+  }
+  #navigation a:hover{
+    color: #e0751c8c;
+  
+  }
+  #navigation a{
+    color: white;
+    text-decoration: none;
+  }
+  /*design spiderman*/
+  #spiderman {
+    background-image: url(../Illustration/img1.png);
+    height: 1000px;
+    background-size: cover;
+    background-position: center;  
+  }
+  #spiderman button{
+    color: var(--rouge);
+    border-radius: 10px;
+    width: 20%;
+  
+  }
+  #spiderman .opac{
+    border: 2px solid;
+    border-color: var(--blanc);
+   
+  }
+  /*design cinema*/
+  #cinema{
+    background-color: var(--rouge);
+    background-size: cover;
+    background-position: center;
+  }
+  .card{
+    background-color: #b113136c;
+    border: none;
+  }
+  .button-card{
+    border-radius: 20px;
+    color: var(--rouge);
+    margin-left: 25%;
+  }
+  /*design formulaire*/
+#formulaire{
+  background-color: var(--blue);
+}
+.form{
+  border-color: var(--noir);
+  border-radius: 20px;
+  width: 20rem;
+}
+#formulaire .envoyer{
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: var(--blanc);
+  color: var(--blanc);
+  margin-left: 10%;
+}
+/*design newsletter*/
+#newsletter{
+  background-color: var(--rouge);
+}
+#newsletter .letterform{
+  background-color: #b1131369;
+  color: rgba(255, 255, 255, 0.918);
+  border-color: var(--blanc);
+  border-radius: 20px;
+  width: 25rem;
+}
+#newsletter .envoyer{
+border-radius: 20px;
+color: var(--rouge);
+background-color: var(--blanc);
+
+}
+#newsletter a {
+  color: var(--blanc);
+}
+footer{
+  background-color: #0000;
+}
+footer a{
+  text-decoration: none;
+  color: var(--rouge);
+}
+footer .dropdown{
+  background-color: var(--rouge);
+  color: var(--blanc);
+  border-radius: 20px;
+  width: 25%;
+}

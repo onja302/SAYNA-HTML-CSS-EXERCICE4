@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&family=Raleway:ital,wght@0,100;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteneur{
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    font-family: Montserrat;
+}
+:root{
+    --rouge: #B11313;
+    --jaune: #F1C530;
+    --blue: #114C92;
+    --noir: #0000;
+    --blanc: #ffff;
+}
+ul{
+    list-style-type: none;
+}
+/*navigation*/
+nav{
+    background-color: var(--jaune);
+    padding: 16px 0;
+}
+nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav .brand img{
+    padding-left: 20px;
+}
+nav .brand img:nth-child(2){
+    padding-bottom: 15px;
+}
+nav .menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu ul li {
+    margin-left: 70px;
+    font-size: 20px;
+    
+}
+nav .menu ul li a {
+    color: var(--blanc);
+    text-decoration: none;
+}
+/*hero*/
+#hero{
+    background-image: url(../Illustration/img7.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#hero .titre{
+    color: var(--blanc);
+    font-size: 70px;
+    font-family: Montserrat;
+}
+#hero .description{
+    color: var(--blanc);
+    font-size: 35px;
+    font-family: Montserrat;
+}
