@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --rouge: #B11313;
+    --jaune: #F1C530;
+    --blue: #114C92;
+    --noir: #0000;
+    --blanc: #ffff;
+    
+  }
+  
+  @font-face {
+    font-family: 'far_from_homecoming';
+    src: url(../police/far-from-homecoming.otf) format('OpenType ');
+  }
+  h1{
+    font-family: 'far_from_homecoming';
+  }
+/*design partie latoile*/
+#latoile{
+    background-color: var(--jaune);
+}
+#latoile .box{
+    position: relative;
+    top: 50%;
+}
+/*design partie antenne*/
+#antenne{
+    background-color: var(--rouge);
+}
+#antenne .imgantenne{
+    margin: 5% 0;
+}
+#antenne .form{
+    color: #fdfeffc9;
+    background-color: #ee090971;
+    border-color: 2px solid #fdfeffc9;
+    border-radius: 20px;
+    width: 20rem;
+}
+#antenne  .envoyer{
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #fdfeffc9;
+    color: #fdfeffc9;
+}
+#antenne .formulaire{
+    position: relative;
+    left: 25%;
+}
+#marvel{
+    background-color: var(--blue);
+}
+#marvel .mediabutton{
+    justify-content: space-around;
+    width: 15%;
+    border-radius: 10px;
+    color: var(--blanc);
+    background-color: #114b928c;
+    border: 1px solid #f7f8faa8;
+}

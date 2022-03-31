@@ -11,9 +11,13 @@
     --blanc: #ffff;
     
   }
+  
   @font-face {
-      font-family: ;
-      src: url();
+    font-family: 'far_from_homecoming';
+    src: url(../police/far-from-homecoming.otf) format('OpenType ');
+  }
+  h1{
+    font-family: 'far_from_homecoming';
   }
   
   /*design navigation*/
@@ -52,6 +56,10 @@
     background-size: cover;
     background-position: center;
   }
+  #spiderman .box{
+    position: relative;
+    top: 55%;
+  }
   .card{
     background-color: #b113136c;
     border: none;
@@ -81,6 +89,10 @@
 #newsletter{
   background-color: var(--rouge);
 }
+#newsletter .box{
+  position: relative;
+  top: 45%;
+}
 #newsletter .letterform{
   background-color: #b1131369;
   color: rgba(255, 255, 255, 0.918);
@@ -98,7 +110,7 @@ background-color: var(--blanc);
   color: var(--blanc);
 }
 footer{
-  background-color: #0000;
+  background-color: #020202;
 }
 footer a{
   text-decoration: none;
