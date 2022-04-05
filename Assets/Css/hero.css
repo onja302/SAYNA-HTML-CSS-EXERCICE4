@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&family=Raleway:ital,wght@0,100;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --rouge: #B11313;
+    --jaune: #F1C530;
+    --blue: #114C92;
+    --noir: #0000;
+    --blanc: #ffff;
+    
+  }
+  
+  @font-face {
+    font-family: 'far_from_homecoming';
+    src: url(../police/far-from-homecoming.otf) format('OpenType ');
+  }
+  h1{
+    font-family: 'far_from_homecoming';
+  }
+  /*design navigation*/
+  #navigation{
+    background-color: var(--blue)
+  }
+  #navigation a:hover{
+    color: #010218a8;
+  
+  }
+  #navigation a{
+    color: white;
+    text-decoration: none;
+  }
+  /*design heros*/
+  #heros{
+    background-image: url(../Illustration/img19.png);
+    height: 700px;
+    background-size: cover;
+    background-position: center;  
+  }
+  #heros h1{
+    font-size: 50px;
+}
+  #heros p{
+      font-size: Montserrat;
+      font-size: 24px;
+  }
+  #heros .box{
+    position: relative;
+    top: 50%;
+  }
+  /*design valeur*/
+  #valeur{
+    background-color: var(--blue)
+  }
+  /*design fondation*/
+#fondation {
+    background-image: url(../Illustration/img20.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;  
+}
+#fondation .box{
+    position: relative;
+    top: 25%;
+}
+/*design force*/
+#force{
+  background-color: var(--blue);
+}
+#force .container span{
+  font-weight: bold;
+}
+#force .container .box{
+  position: relative;
+  top: 10%;
+}
